@@ -1,0 +1,35 @@
+
+App to be initially for Android-SCSVMVPlacementApp  - There are two endusers - Students and Placement Admin. 
+
+Student data is already available with us in database/excel -  including personal details (Name, DoB, phone no., email etc.), academic details(CGPA etc.) - Schema attached herewith as excel sheet.
+
+[+] 1. Student should be able to Login (Forgot password option also to be available)
+
+2. Once logged in, student should have following features:
+
+[+] a. View MyDetails (Personal, Academic) - For student to see what his details are as per our db.
+[+]	b. RequestChanges - Whenever a student finds any discrepancy in data(for eg. his 10th % is entered as 	  77 instead of 87, he must be able to request change. The admin should Approve such Change requests 		before they are updated. Once a change is approved, student must be intimated about the same.)
+[+]	c. ViewRecruitmentOpportunity - Whenver a new company is going to recruit, Admin will login and 		upload the following details about the recruitment - Name of Company , Job Description, Whether Off-	campus/On campus process, Eligibility in terms of 10th, 12th, Arrear count, Branches, Date of 			recruitment. ). 
+When a student views this, he must also be able to see if he is eligible.
+Eligible students must be able to APPLY for a job before the deadline.
+
+[+]d.View LatestNews - that are uploded by Admin (For eg. , Admin wants to share TCS offcampus registration link to all students)
+
+
+Admin should have following features - Admin interface can be web based.
+
+[+]i. View student data - batchwise (2015 batch, 2014 batch etc.) , branch-wise (CSE/EEEetc.)
+[+]2. View data of individual student(enter register number and view student info.)
+[+]3. Whenver student has requested any changes through RequestChange option, same should be viewed and approved.
+[+]4. Whenever  new company is to conduct recruitment, Admin will login and upload the following details about the recruitment - Name of Company , Job Description, Whether Off-campus/On campus process, Eligibility in terms of 10th, 12th, Arrear count, Branches, Date of recruitment, deadline for applying. ). 
+Once this is done, Admin should be able to GENERATE a list of eligible students and download it as an excel sheet. 
+[+]5. After a recruitment process is done, the admin should be able to feed in the results (enter register numbers of those students who are placed.)
+[+]6. Admin should be able to upload any news /
+[-] material for the benefit of students.
+
+
+Pl. confirm if the requirements are understood.
+
+To help you get more clarity, I have enclosed a few snapshots of a web-based tool that we are presently using.
+Regards,
+Vasanth
